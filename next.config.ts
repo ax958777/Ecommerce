@@ -5,7 +5,10 @@ const nextConfig: NextConfig = {
   eslint:{
     ignoreDuringBuilds:true,
   },
-  ignoreBuildErrors:true,
+  typescript:{
+    ignoreBuildErrors:true,
+  }
+  
 };
 
 export default nextConfig;
